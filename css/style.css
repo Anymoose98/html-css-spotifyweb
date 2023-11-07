@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(20, 25, 34);
+    color: white;
+}
+
+
+/***********************************
+footer 
+***********************************/
+.contenitore-footer{
+    position: fixed;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+}
+
+.riga-footer{
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+.col-footer-piccola{
+    width: 25%;
+    height: 75px;
+    background-color: wheat;
+    border: solid black;
+}
+
+.col-footer-grande{
+    width: 50%;
+    height: 75px;
+    background-color: bisque;
+    border: solid black;
+}
+
