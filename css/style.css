@@ -92,5 +92,37 @@ Footer barra del media
     border: solid black;
 }
 
+/***********************************
+ PC 992
+***********************************/
+@media screen and (max-width:992px) {
+    .contenitore-nav{
+        background-color: orange;
+    }
+}
+
+
+/***********************************
+ TABLET 768
+***********************************/
+@media screen and (max-width:768px) {
+    .contenitore-nav{
+        background-color: aqua;
+    }
+}
+
+
+/***********************************
+ TELEFONO 576
+***********************************/
+@media screen and (max-width:576px) {
+    .contenitore-nav{
+        width: 50px;
+    }
+    .contenuto-header{
+        width: calc(100% - 50px);
+    }
+}
+
 
 
