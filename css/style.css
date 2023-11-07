@@ -10,9 +10,20 @@ body{
 }
 
 
+
+/***********************************
+nav
+***********************************/
+.contenitore-nav{
+    width: 15vw;
+    background-color: black;
+    height: calc(100vh - 75px);
+}
+
 /***********************************
 footer 
 ***********************************/
+
 .contenitore-footer{
     position: fixed;
     bottom: 0;
