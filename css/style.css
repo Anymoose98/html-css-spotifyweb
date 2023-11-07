@@ -14,10 +14,44 @@ body{
     justify-content:space-between
 }
 
+.flex-end{
+    align-self: flex-end;
+}
+
+
+/***********************************
+margin e padding
+***********************************/
+
+.margin-top-5{
+    margin-top: 5px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.padding-15{
+    padding: 15px;
+}
+
+/***********************************
+TEXT
+***********************************/
+
 .text-end{
     text-align: end;
-
 }
+
+
+/***********************************
+Colori
+***********************************/
+
+.grigio{
+    color: grey;
+}
+
 
 /***********************************
 Header Effettua l'upgrade
@@ -56,10 +90,32 @@ Nav Logo e menu
     flex-direction: column;
 }
 
-.col-nav{
-    width: 50%;
-    margin: 1px solid black;
+#logo{
+    width: 125px;
 }
+
+.col-nav-grande{
+    height: calc(90vh - 75px);
+}
+
+.col-nav{
+    height: calc(10vh - 75px);
+}
+
+#plus{
+    color:black;
+    padding: 5px;
+    background-color: grey;
+}
+
+#profilo-foto{
+    width: 20px;
+    padding: 1px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+
 /***********************************
 Main contenuto principale
 ***********************************/
@@ -111,7 +167,7 @@ Footer barra del media
 ***********************************/
 @media screen and (max-width:1200px) {
     .contenitore-nav{
-        background-color: orange;
+        
     }
 }
 
@@ -121,7 +177,7 @@ Footer barra del media
 ***********************************/
 @media screen and (max-width:992px) {
     .contenitore-nav{
-        background-color: orange;
+        
     }
 }
 
@@ -131,7 +187,7 @@ Footer barra del media
 ***********************************/
 @media screen and (max-width:768px) {
     .contenitore-nav{
-        background-color: aqua;
+        
     }
 }
 
