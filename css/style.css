@@ -14,6 +14,10 @@ body{
     justify-content:space-between
 }
 
+.text-end{
+    text-align: end;
+
+}
 
 /***********************************
 Header Effettua l'upgrade
@@ -27,6 +31,14 @@ Header Effettua l'upgrade
     right: 0;
 }
 
+#bottone-header{
+    padding: 10px 32px;
+    border: solid 1px white;
+    background-color: rgba(8, 11, 18, 0.5);
+    color: white;
+    border-radius: 30px;
+    margin: 18px;
+}
 
 
 /***********************************
