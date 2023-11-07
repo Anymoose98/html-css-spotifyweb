@@ -92,6 +92,18 @@ Footer barra del media
     border: solid black;
 }
 
+
+
+/***********************************
+ PC 1200
+***********************************/
+@media screen and (max-width:1200px) {
+    .contenitore-nav{
+        background-color: orange;
+    }
+}
+
+
 /***********************************
  PC 992
 ***********************************/
