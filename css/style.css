@@ -10,6 +10,19 @@ body{
 }
 
 
+/***********************************
+Header
+***********************************/
+.contenuto-header{
+    width: calc(100% - 15vw);
+    height: 75px;
+    background-color: rgba(8, 11, 18, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
 
 /***********************************
 nav
