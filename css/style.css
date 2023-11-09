@@ -257,7 +257,7 @@ Footer barra del media
 }
 
 .col-footer-piccola{
-    width: 210px;
+    width: 220px;
     height: 75px;
 }
 
@@ -331,8 +331,6 @@ Footer barra del media
     display: block;
 }
 
-
-
 .dopo-bianco:hover{
     color: white;
 }
@@ -363,9 +361,9 @@ Footer barra del media
 /***********************************
  PC 1200
 ***********************************/
-@media screen and (max-width:1200px) {
+/* @media screen and (max-width:1200px) {
    
-}
+} */
 
 
 /***********************************
@@ -375,6 +373,8 @@ Footer barra del media
     .card{
         width: calc(100% / 4 - 20px);
     }
+
+    
 }
 
 
@@ -451,6 +451,19 @@ Footer barra del media
 
     .col-footer-grande{
         width: calc(100% / 3);
+    }
+
+    .player-footer{
+        margin-right: 5px;
+        font-size: 20px;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+    #play{
+        font-size: 25px;
+        margin-left: 0px;
+        margin-right: 5px;
     }
 }
 
