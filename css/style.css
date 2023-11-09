@@ -87,6 +87,10 @@ Colori
     color: grey;
 }
 
+.grigio-chiaro{
+    color: lightgray;
+}
+
 
 /***********************************
 Header Effettua l'upgrade
@@ -110,6 +114,10 @@ Header Effettua l'upgrade
 }
 
 
+#bottone-header:hover{
+    padding: 13px 35px;
+}
+
 /***********************************
 Nav Logo e menu
 ***********************************/
@@ -132,16 +140,24 @@ Nav Logo e menu
     width: 125px;
 }
 
+
+
 .playlist{
-    height: 40vh;
+    height: calc(40vh - 75px);
     overflow-y: auto;
 }
 
-#plus{
+.plus{
     color:black;
     padding: 5px;
     background-color: grey;
 }
+
+.dopo-bianco:hover .plus{
+    background-color: white;
+}
+
+
 
 #profilo-foto{
     width: 20px;
@@ -232,14 +248,20 @@ Footer barra del media
     display: inline-block;
 }
 
-.hr-volume{
+.div-volume{
     height: 4px; 
     width: 100px;
     background-color: grey;
     border-radius: 3px;
 }
 
-.hr-tempo{
+.barra-volume{
+    height: 4px;
+    width: 40px;
+    background-color: white;
+}
+
+.div-tempo{
     height: 4px; 
     width:50%;
     background-color: grey;
@@ -247,7 +269,52 @@ Footer barra del media
     margin-top: 4px;
     margin-right: 5px;
     margin-left: 5px;
+
 }
+
+.barra-verde{
+    height: 4px;
+    width: 20%;
+    background-color: white;
+    border-radius: 3px;
+    position: relative;
+}
+
+.cerchio-play{
+    width: 15px;
+    height: 15px;
+    background-color: lightgray;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: none;
+
+}
+.div-tempo:hover .barra-verde{
+    background-color: rgb(153, 252, 4);
+}
+
+.div-tempo:hover .cerchio-play{
+    display: block;
+}
+
+
+
+.dopo-bianco:hover{
+    color: white;
+}
+
+.brano-nome:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.hover-grande:hover{
+    font-size: 40px;
+}
+
 
 .player-footer{
     margin-right: 15px;
