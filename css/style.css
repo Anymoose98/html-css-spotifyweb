@@ -149,7 +149,6 @@ Nav Logo e menu
 }
 
 #logo-small{
-    width: 30px;
     display: none;
 }
 
@@ -419,6 +418,7 @@ Footer barra del media
 
     #logo{
         display: none;
+
     }
     
     #logo-small{
@@ -430,6 +430,7 @@ Footer barra del media
     }
 
     .block{
+        margin-top: 5px;
         display: block;
     }
 
@@ -438,7 +439,10 @@ Footer barra del media
         padding-top: 5px;
     }
 
-
+    .icone-footer{
+        display: flex;
+        flex-direction: column;
+    }
 
 
     .col-footer-piccola{
