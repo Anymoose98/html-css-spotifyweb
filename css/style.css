@@ -33,6 +33,10 @@ body{
     position: relative;
 }
 
+.block{
+    display: none;
+}
+
 
 /***********************************
 margin e padding
@@ -144,6 +148,10 @@ Nav Logo e menu
     width: 125px;
 }
 
+#logo-small{
+    width: 30px;
+    display: none;
+}
 
 
 .playlist{
@@ -357,9 +365,7 @@ Footer barra del media
  PC 1200
 ***********************************/
 @media screen and (max-width:1200px) {
-    .contenitore-nav{
-        
-    }
+   
 }
 
 
@@ -367,8 +373,8 @@ Footer barra del media
  PC 992
 ***********************************/
 @media screen and (max-width:992px) {
-    .contenitore-nav{
-        
+    .card{
+        width: calc(100% / 4 - 20px);
     }
 }
 
@@ -377,9 +383,19 @@ Footer barra del media
  TABLET 768
 ***********************************/
 @media screen and (max-width:768px) {
-    .contenitore-nav{
-        
+    .card{
+        width: calc(100% / 2 - 20px);
     }
+
+    .col-footer-piccola{
+        width: calc(100% / 3);
+    }
+
+    .col-footer-grande{
+        width: calc(100% / 3);
+    }
+
+
 }
 
 
@@ -389,9 +405,48 @@ Footer barra del media
 @media screen and (max-width:576px) {
     .contenitore-nav{
         width: 50px;
+        align-items: center;
     }
+
     .contenuto-header{
         width: calc(100% - 50px);
+    }
+
+    .contenitore-main{
+        width: calc(100vw - 50px);
+      
+    }
+
+    #logo{
+        display: none;
+    }
+    
+    #logo-small{
+        display: block;
+    }
+
+    .none{
+        display: none;
+    }
+
+    .block{
+        display: block;
+    }
+
+    .col-nav-grande{
+        text-align: -moz-center;
+        padding-top: 5px;
+    }
+
+
+
+
+    .col-footer-piccola{
+        width: calc(100% / 3);
+    }
+
+    .col-footer-grande{
+        width: calc(100% / 3);
     }
 }
 
